@@ -2,9 +2,11 @@ package bethlehem.springframework.sfgpetclinic.services.map;
 
 import bethlehem.springframework.sfgpetclinic.model.Pet;
 import bethlehem.springframework.sfgpetclinic.services.PetService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService {
 
 

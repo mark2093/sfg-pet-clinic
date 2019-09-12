@@ -2,9 +2,11 @@ package bethlehem.springframework.sfgpetclinic.services.map;
 
 import bethlehem.springframework.sfgpetclinic.model.Owner;
 import bethlehem.springframework.sfgpetclinic.services.OwnerService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService {
 
 

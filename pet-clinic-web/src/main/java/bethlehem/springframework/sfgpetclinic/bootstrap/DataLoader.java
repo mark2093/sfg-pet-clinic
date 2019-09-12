@@ -1,12 +1,9 @@
 package bethlehem.springframework.sfgpetclinic.bootstrap;
 
 import bethlehem.springframework.sfgpetclinic.model.Owner;
-import bethlehem.springframework.sfgpetclinic.model.Pet;
 import bethlehem.springframework.sfgpetclinic.model.Vet;
 import bethlehem.springframework.sfgpetclinic.services.OwnerService;
 import bethlehem.springframework.sfgpetclinic.services.VetService;
-import bethlehem.springframework.sfgpetclinic.services.map.OwnerServiceMap;
-import bethlehem.springframework.sfgpetclinic.services.map.VetServiceMap;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
@@ -16,9 +13,10 @@ public class DataLoader implements CommandLineRunner {
     private final OwnerService ownerService;
     private final VetService vetService;
 
-    public DataLoader() {
-        ownerService = new OwnerServiceMap();
-        vetService = new VetServiceMap();
+    public DataLoader(OwnerService ownerService, VetService vetService) {
+
+        this.ownerService = ownerService;
+        this.vetService = vetService;
     }
 
     @Override
