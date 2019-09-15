@@ -1,0 +1,14 @@
+/home/mark/Projects/sfg-pet-clinic/pet-clinic-data/src/main/java/bethlehem/springframework/sfgpetclinic/services/CrudService.java
+/home/mark/Projects/sfg-pet-clinic/pet-clinic-data/src/main/java/bethlehem/springframework/sfgpetclinic/model/Person.java
+/home/mark/Projects/sfg-pet-clinic/pet-clinic-data/src/main/java/bethlehem/springframework/sfgpetclinic/services/PetService.java
+/home/mark/Projects/sfg-pet-clinic/pet-clinic-data/src/main/java/bethlehem/springframework/sfgpetclinic/model/Owner.java
+/home/mark/Projects/sfg-pet-clinic/pet-clinic-data/src/main/java/bethlehem/springframework/sfgpetclinic/services/VetService.java
+/home/mark/Projects/sfg-pet-clinic/pet-clinic-data/src/main/java/bethlehem/springframework/sfgpetclinic/model/BaseEntity.java
+/home/mark/Projects/sfg-pet-clinic/pet-clinic-data/src/main/java/bethlehem/springframework/sfgpetclinic/services/map/OwnerServiceMap.java
+/home/mark/Projects/sfg-pet-clinic/pet-clinic-data/src/main/java/bethlehem/springframework/sfgpetclinic/services/map/PetServiceMap.java
+/home/mark/Projects/sfg-pet-clinic/pet-clinic-data/src/main/java/bethlehem/springframework/sfgpetclinic/services/OwnerService.java
+/home/mark/Projects/sfg-pet-clinic/pet-clinic-data/src/main/java/bethlehem/springframework/sfgpetclinic/model/Vet.java
+/home/mark/Projects/sfg-pet-clinic/pet-clinic-data/src/main/java/bethlehem/springframework/sfgpetclinic/services/map/VetServiceMap.java
+/home/mark/Projects/sfg-pet-clinic/pet-clinic-data/src/main/java/bethlehem/springframework/sfgpetclinic/services/map/AbstractMapService.java
+/home/mark/Projects/sfg-pet-clinic/pet-clinic-data/src/main/java/bethlehem/springframework/sfgpetclinic/model/PetType.java
+/home/mark/Projects/sfg-pet-clinic/pet-clinic-data/src/main/java/bethlehem/springframework/sfgpetclinic/model/Pet.java

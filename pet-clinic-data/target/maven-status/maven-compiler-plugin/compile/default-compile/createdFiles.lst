@@ -1,0 +1,14 @@
+bethlehem/springframework/sfgpetclinic/services/PetService.class
+bethlehem/springframework/sfgpetclinic/services/CrudService.class
+bethlehem/springframework/sfgpetclinic/model/Vet.class
+bethlehem/springframework/sfgpetclinic/services/map/PetServiceMap.class
+bethlehem/springframework/sfgpetclinic/services/map/OwnerServiceMap.class
+bethlehem/springframework/sfgpetclinic/model/Person.class
+bethlehem/springframework/sfgpetclinic/model/PetType.class
+bethlehem/springframework/sfgpetclinic/model/Pet.class
+bethlehem/springframework/sfgpetclinic/services/VetService.class
+bethlehem/springframework/sfgpetclinic/services/map/AbstractMapService.class
+bethlehem/springframework/sfgpetclinic/model/Owner.class
+bethlehem/springframework/sfgpetclinic/services/OwnerService.class
+bethlehem/springframework/sfgpetclinic/services/map/VetServiceMap.class
+bethlehem/springframework/sfgpetclinic/model/BaseEntity.class
