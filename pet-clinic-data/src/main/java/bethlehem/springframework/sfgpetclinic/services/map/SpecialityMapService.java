@@ -1,31 +1,31 @@
 package bethlehem.springframework.sfgpetclinic.services.map;
 
-import bethlehem.springframework.sfgpetclinic.model.Specialty;
-import bethlehem.springframework.sfgpetclinic.services.SpecialitiesServices;
+import bethlehem.springframework.sfgpetclinic.model.Speciality;
+import bethlehem.springframework.sfgpetclinic.services.SpecialityServices;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
 @Service
-public class SpecialityMapService extends AbstractMapService<Specialty, Long> implements SpecialitiesServices {
+public class SpecialityMapService extends AbstractMapService<Speciality, Long> implements SpecialityServices {
 
     @Override
-    public Set<Specialty> findAll() {
+    public Set<Speciality> findAll() {
         return super.findAll();
     }
 
     @Override
-    public Specialty findById(Long id) {
+    public Speciality findById(Long id) {
         return super.findById(id);
     }
 
     @Override
-    public Specialty save(Specialty object) {
+    public Speciality save(Speciality object) {
         return super.save(object);
     }
 
     @Override
-    public void delete(Specialty object) {
+    public void delete(Speciality object) {
         super.delete(object);
 
     }
