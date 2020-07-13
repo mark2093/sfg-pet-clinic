@@ -1,5 +1,5 @@
-bethlehem/springframework/sfgpetclinic/controllers/VetsController.class
-bethlehem/springframework/sfgpetclinic/bootstrap/DataLoader.class
-bethlehem/springframework/sfgpetclinic/controllers/OwnerController.class
-bethlehem/springframework/sfgpetclinic/SfgPetClinicApplication.class
-bethlehem/springframework/sfgpetclinic/controllers/IndexController.class
+bethlehem\springframework\sfgpetclinic\controllers\VetsController.class
+bethlehem\springframework\sfgpetclinic\controllers\OwnerController.class
+bethlehem\springframework\sfgpetclinic\SfgPetClinicApplication.class
+bethlehem\springframework\sfgpetclinic\bootstrap\DataLoader.class
+bethlehem\springframework\sfgpetclinic\controllers\IndexController.class

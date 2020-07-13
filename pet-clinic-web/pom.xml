@@ -54,24 +54,19 @@
         <artifactId>spring-boot-test</artifactId>
         <scope>test</scope>
     </dependency>
-    <dependency>
-        <groupId>org.springframework</groupId>
-        <artifactId>spring-test</artifactId>
-        <version>5.2.0.BUILD-SNAPSHOT</version>
-        <scope>test</scope>
-    </dependency>
-    <dependency>
-        <groupId>org.springframework</groupId>
-        <artifactId>spring-test</artifactId>
-        <version>5.1.8.RELEASE</version>
-        <scope>test</scope>
-    </dependency>
-    <dependency>
-        <groupId>org.springframework</groupId>
-        <artifactId>spring-test</artifactId>
-        <version>5.1.8.RELEASE</version>
-        <scope>test</scope>
-    </dependency>
+
+<!--    <dependency>-->
+<!--        <groupId>org.springframework</groupId>-->
+<!--        <artifactId>spring-test</artifactId>-->
+<!--        <version>5.1.8.RELEASE</version>-->
+<!--        <scope>test</scope>-->
+<!--    </dependency>-->
+<!--    <dependency>-->
+<!--        <groupId>org.springframework</groupId>-->
+<!--        <artifactId>spring-test</artifactId>-->
+<!--        <version>5.1.8.RELEASE</version>-->
+<!--        <scope>test</scope>-->
+<!--    </dependency>-->
     <!-- webjars -->
     <dependency>
         <groupId>org.webjars</groupId>
@@ -94,12 +89,12 @@
     </dependency>
     <!-- end of webjars -->
 
-    <dependency>
-        <groupId>org.springframework</groupId>
-        <artifactId>spring-test</artifactId>
-        <version>5.1.8.RELEASE</version>
-        <scope>test</scope>
-    </dependency>
+<!--    <dependency>-->
+<!--        <groupId>org.springframework</groupId>-->
+<!--        <artifactId>spring-test</artifactId>-->
+<!--        <version>5.1.8.RELEASE</version>-->
+<!--        <scope>test</scope>-->
+<!--    </dependency>-->
 
 </dependencies>
     <build>
