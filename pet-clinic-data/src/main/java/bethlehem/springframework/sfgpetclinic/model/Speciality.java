@@ -4,6 +4,10 @@ public class Speciality extends BaseEntity {
 
     private String description;
 
+    public Speciality(Long id) {
+        super(id);
+    }
+
     public String getDescription() {
         return description;
     }
