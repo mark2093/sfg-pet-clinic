@@ -4,10 +4,11 @@ import bethlehem.springframework.sfgpetclinic.model.Pet;
 import bethlehem.springframework.sfgpetclinic.repositories.PetRepository;
 import bethlehem.springframework.sfgpetclinic.services.PetService;
 import org.springframework.context.annotation.Profile;
+import org.springframework.stereotype.Service;
 
 import java.util.HashSet;
 import java.util.Set;
-
+@Service
 @Profile("springdatajpa")
 public class PetSDJpaService implements PetService {
 
