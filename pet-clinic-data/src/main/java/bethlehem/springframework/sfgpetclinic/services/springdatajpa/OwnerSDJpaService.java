@@ -5,6 +5,7 @@ import bethlehem.springframework.sfgpetclinic.repositories.OwnerRepository;
 import bethlehem.springframework.sfgpetclinic.repositories.PetRepository;
 import bethlehem.springframework.sfgpetclinic.repositories.PetTypeRepository;
 import bethlehem.springframework.sfgpetclinic.services.OwnerService;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
@@ -12,7 +13,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-
+@Slf4j
 @Service
 @Profile("springdatajpa")
 public class OwnerSDJpaService implements OwnerService {
@@ -26,6 +27,7 @@ public class OwnerSDJpaService implements OwnerService {
         this.ownerRepository = ownerRepository;
         this.petRepository = petRepository;
         this.petTypeRepository = petTypeRepository;
+        log.debug("Working");
     }
 
     @Override
