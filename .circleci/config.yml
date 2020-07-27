@@ -3,7 +3,7 @@ version: 2.1
 orbs:
   maven: circleci/maven@0.0.12
 - run:
-      mkdir /home/circleci/project/target/surefire-reports
+      - mkdir /home/circleci/project/target/surefire-reports
 workflows:
   maven_test:
     jobs:
