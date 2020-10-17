@@ -1,0 +1,8 @@
+bethlehem\springframework\sfgpetclinic\services\map\OwnerMapServiceTest.class
+bethlehem\springframework\sfgpetclinic\model\VisitTest.class
+bethlehem\springframework\sfgpetclinic\controllers\PetControllerTest.class
+bethlehem\springframework\sfgpetclinic\services\map\PetMapServiceTest.class
+bethlehem\springframework\sfgpetclinic\controllers\VisitControllerTest.class
+bethlehem\springframework\sfgpetclinic\controllers\OwnerControllerTest.class
+bethlehem\springframework\sfgpetclinic\services\springdatajpa\OwnerSDJpaServiceTest.class
+bethlehem\springframework\sfgpetclinic\SfgPetClinicApplicationTests.class
